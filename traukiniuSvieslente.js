@@ -39,9 +39,5 @@ function marsrutasIsMiestoAIMiestaB(marsrutas) {
     console.log('Isvykomo data:', dataIsvykimo + ' Isvykimo laikas ' + laikasIsvykimo);
     console.log('Keliones trukme ' + marsrutas.kelionesTrukme);
     /* console.log('Atvykimo data ' + atvykimoData + 'Atvykimo laikas'); */
-
-
 }
-
-// Loop through the array and call the function for each object
 marsrutai.forEach(marsrutasIsMiestoAIMiestaB);
